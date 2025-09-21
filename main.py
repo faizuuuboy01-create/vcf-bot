@@ -9,8 +9,8 @@ import sqlite3
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("TOKEN")
-ADMIN_ID = os.environ.get("ADMIN_ID")  # Your Telegram User ID
+TOKEN = os.environ.get("8150871986:AAFuCQYErxA2ov9OaNdsL2_P6m5Zy_P7OJs")
+ADMIN_ID = os.environ.get("7025016111")  # Your Telegram User ID
 
 # Database setup
 def init_db():
